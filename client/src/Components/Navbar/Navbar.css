@@ -1,0 +1,36 @@
+nav{
+    background-color: rgba(91, 8, 136, 1);
+    padding: 10px;
+}
+/* .nav-link{
+    content: "";
+    position: absolute;
+    background-color: orange;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    color: white;
+    transition: 0.3s ease;
+}
+.nav-link:hover::after{
+    width: 100%;
+} */
+.nav-link{
+    position: relative;
+    color: white;
+}
+.nav-link::after{
+    content: "";
+    position: absolute;
+    background-color: orange;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    color: white;
+    transition: 0.3s ease;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
